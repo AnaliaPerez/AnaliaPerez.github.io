@@ -1,4 +1,6 @@
 /* --------------- Einstellung für alle Elemente ---------------*/
+@media screen and (min-width:300px) and (max-width:800px) {
+
 html * { 
 			margin: 0; 
 			padding:0; 
