@@ -1,10 +1,11 @@
-/* --------------- Einstellung für alle Elemente ---------------*/
-@media screen and (min-width:300px) and (max-width:800px) {
+/* Smartphones (portrait and landscape) ----------- */  
+@media only screen  
+and (min-width : 320px)  
+and (max-width : 480px) {  
+/* Styles */  
+}  
 
-html * { 
-			margin: 0; 
-			padding:0; 
-		}
+/* --------------- Einstellung für alle Elemente ---------------*/
 
 body {
 	background-color: #4c4c4c;
