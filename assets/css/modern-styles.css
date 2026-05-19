@@ -18,6 +18,11 @@
 }
 
 /* ===========================
+   Google Fonts Import
+   =========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+
+/* ===========================
    Reset & Base Styles
    =========================== */
 * {
@@ -31,17 +36,19 @@ html {
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     font-size: 16px;
     line-height: 1.6;
     color: var(--text-primary);
     background: white;
+    font-weight: 400;
 }
 
 /* ===========================
    Typography
    =========================== */
 h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 1rem;
@@ -51,19 +58,23 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
     font-size: 2.25rem;
     margin-bottom: 1.5rem;
+    font-weight: 700;
 }
 
 h3 {
     font-size: 1.5rem;
+    font-weight: 600;
 }
 
 h4 {
     font-size: 1.125rem;
+    font-weight: 600;
 }
 
 p {
     margin-bottom: 1rem;
     color: var(--text-secondary);
+    font-weight: 400;
 }
 
 a {
@@ -108,9 +119,9 @@ strong {
 }
 
 .avatar {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    border-radius: 1.5rem;
     border: 4px solid rgba(255, 255, 255, 0.3);
     object-fit: cover;
     box-shadow: var(--shadow-lg);
@@ -120,6 +131,7 @@ strong {
     font-size: 1.75rem;
     margin-bottom: 0.25rem;
     font-weight: 700;
+    font-family: 'Poppins', sans-serif;
 }
 
 .title {
@@ -127,12 +139,14 @@ strong {
     font-weight: 600;
     margin-bottom: 0.5rem;
     color: rgba(255, 255, 255, 0.9);
+    font-family: 'Poppins', sans-serif;
 }
 
 .subtitle {
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 2rem;
+    font-family: 'Inter', sans-serif;
 }
 
 /* ===========================
@@ -155,6 +169,8 @@ strong {
     font-size: 0.95rem;
     transition: var(--transition);
     border-left: 3px solid transparent;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
 }
 
 .nav-link:hover {
@@ -238,6 +254,8 @@ strong {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     margin-bottom: 0.5rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 
 .hero .lead {
@@ -245,12 +263,14 @@ strong {
     color: var(--secondary);
     font-weight: 600;
     margin-bottom: 1.5rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .section-intro {
     font-size: 1.125rem;
     color: var(--text-secondary);
     margin-bottom: 2rem;
+    font-weight: 500;
 }
 
 /* ===========================
@@ -264,6 +284,7 @@ strong {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    font-family: 'Poppins', sans-serif;
 }
 
 .badge-primary {
@@ -318,6 +339,7 @@ strong {
     font-size: 0.95rem;
     color: var(--text-secondary);
     margin-bottom: 0.5rem;
+    font-weight: 500;
 }
 
 .detail {
@@ -366,6 +388,7 @@ strong {
 .skill-card h3 {
     font-size: 1.125rem;
     margin-bottom: 0.5rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .skill-card p {
@@ -411,6 +434,7 @@ strong {
 .highlight-card h3 {
     font-size: 1.25rem;
     margin-bottom: 0.75rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .highlight-card p {
@@ -475,6 +499,7 @@ strong {
 .timeline-content h3 {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .timeline-content .company {
@@ -507,6 +532,7 @@ strong {
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .cert-category h3 i {
@@ -535,6 +561,7 @@ strong {
 .cert-list strong {
     display: block;
     margin-bottom: 0.25rem;
+    font-weight: 600;
 }
 
 .cert-date {
@@ -596,8 +623,8 @@ strong {
     }
 
     .avatar {
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
     }
 
     .name {
